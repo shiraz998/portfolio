@@ -1,0 +1,563 @@
+/* --- Start Media Quries 1024px --- */
+@media screen and (max-width: 1024px) 
+{
+    .container {
+        width: 100%;
+        padding: 0px 20px;
+    }
+    header .row {
+        grid-template-columns: 15% 70% 15%;
+    }
+    header .row .site-logo a {
+        font-size: 19px;
+    }
+    header .row .nav-links ul li a {
+        font-size: 13px;
+    }
+    header .row .nav-links ul {
+        grid-gap: 0px 38px;
+    }
+    header .row .right a {
+        font-size: 11px;
+        padding: 4px 15px;
+    }
+    .h-section .row {
+        padding-top: 60px;
+        align-items: center;
+    }
+    .h-section .row .left {
+        padding-top: 30px;
+    }
+    .h-section .row .left p{
+        font-size: 18px;
+    }
+    .h-section .row .left h4{
+        font-size: 35px;
+    }
+    .h-section .row .left .third-txt{
+        font-size: 34px;
+    }
+    .h-section .row .left h1{
+        font-size: 34px;
+    }
+    .h-section .row .left .l-text{
+        font-size: 13px;
+    }
+    .h-section .row .left a {
+        font-size: 12px;
+        padding: 8px 30px;
+    }
+    .h-section .row .right img{
+        max-width: 53%;
+    }
+    .swiper-slide img {
+        max-width: 70%;
+    }
+    .about {
+        padding: 40px 0px 40px 0px;
+    }
+    .about .row .left img {
+        max-width: 55%;
+    }
+    .about .row .right .top h3 {
+        font-size: 33px;
+    }
+    .about .row .right .top p {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .about .row .right .r-social ul {
+        margin-top: 20px;
+    }
+    .about .row .right .r-social ul li a {
+        font-size: 23px;
+    }
+    .services {
+        padding: 40px 0px 40px 0px;
+    }
+    .services .s-data h3{
+        font-size: 33px;
+    }
+    .services .row {
+        grid-gap: 0px 35px;
+        margin-top: 40px;
+    }
+    .services .row .box {
+        padding: 40px 20px 40px 20px;
+    }
+    .services .row .box img {
+        max-width: 30%;
+    }
+    .services .row .box h4 {
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    .services .row .box p {
+        font-size: 12px;
+    }
+    .p-section {
+        padding: 40px 0px 40px 0px;
+    }
+    .p-section .top-data h2 {
+        font-size: 33px;
+    }
+    .p-section .p-data .row {
+        grid-gap: 30px 30px;
+        margin-top: 40px;
+    }
+    .c-form {
+        padding: 40px 0px 40px 0px;
+    }
+    .c-form form {
+        padding: 12px 12px;
+    }
+    .c-form .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 25px;
+        align-items: center;
+    }
+    .c-form form label {
+        font-size: 14px;
+    }
+    .c-form form input {
+        font-size: 13px;
+        margin: 8px 0px 8px 0px !important;
+    }
+    .c-form .row .contact-img {
+        text-align: center;
+    }
+    .c-form .row .contact-img img{
+        width: 90%;
+    }
+    footer {
+        padding: 40px 0px 40px 0px;
+    }
+    footer .f-data .f-logo a {
+        font-size: 20px;
+    }
+    footer .f-data .f-links ul {
+        grid-gap: 0px 40px;
+        margin-top: 20px;
+    }
+    footer .f-data .f-links ul li a {
+        font-size: 14px;
+    }
+    footer .f-data .f-social ul {
+        margin-top: 30px;
+    }
+    footer .f-last p {
+        font-size: 14px;
+    }
+    footer .f-last {
+        margin-top: 20px;
+    }
+}
+/* --- Close Media Quries 1024px --- */
+/* --- Start Media Quries 768px --- */
+@media screen and (max-width: 768px) 
+{
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+    header .row {
+        display: grid;
+        grid-template-columns: 17% 65% 18%;
+    }
+    header .row .site-logo a {
+        font-size: 13px;
+    }
+    header .row .nav-links ul li a {
+        font-size: 11px;
+    }
+    header .row .nav-links ul {
+        grid-gap: 0px 20px;
+    }
+    header .row .right{
+        text-align: end;
+    }
+    header .row .right a {
+        font-size: 9px;
+        padding: 5px 8px;
+    }
+    .h-section .row {
+        padding-top: 30px;
+    }
+    .h-section .row .left p {
+        font-size: 16px;
+    }
+    .h-section .row .left h4 {
+        font-size: 32px;
+    }
+    .h-section .row .left .third-txt {
+        font-size: 25px;
+    }
+    .h-section .row .left h1 {
+        font-size: 25px;
+    }
+    .h-section .row .left .l-text {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .h-section .row .left a {
+        font-size: 11px;
+        padding: 7px 22px;
+    }
+    .h-section .row .right img {
+        max-width: 55%;
+    }
+    .logos {
+        margin: 30px 0px 30px 0px;
+    }
+    .about {
+        padding: 30px 0px 30px 0px;
+    }
+    .about .row .right .top h3 {
+        font-size: 30px;
+    }
+    .about .row .right .top p {
+        font-size: 12px;
+        margin-top: 12px;
+        max-width: 330px;
+    }
+    .about .row .right .r-social ul {
+        margin-top: 15px;
+        grid-gap: 0px 18px;
+    }
+    .about .row .right .r-social ul li a {
+        font-size: 22px;
+    }
+    .services {
+        padding: 30px 0px 30px 0px;
+    }
+    .services .s-data h3 {
+        font-size: 30px;
+    }
+    .services .row {
+        grid-gap: 0px 30px;
+        margin-top: 30px;
+    }
+    .services .row .box {
+        padding: 30px 15px 30px 15px;
+    }
+    .services .row .box h4 {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .services .row .box p {
+        font-size: 11px;
+    }
+    .services .row {
+        grid-gap: 0px 25px;
+        margin-top: 25px;
+    }
+    .p-section {
+        padding: 30px 0px 30px 0px;
+    }
+    .p-section .top-data h2 {
+        font-size: 30px;
+    }
+    .p-section .p-data .row {
+        grid-gap: 25px 25px;
+        margin-top: 30px;
+    }
+    .p-section .p-data .row .box p {
+        font-size: 12px;
+    }
+    .c-form .row {
+        margin-top: 20px;
+        align-items: center;
+    }
+    .c-form form {
+        border: 1px solid #5933d3;
+        width: 100%;
+        border-radius: 8px;
+        padding: 10px 10px 10px 10px;
+    }
+    .c-form .row .contact-img {
+        text-align: right;
+    }
+    .c-form .row .contact-img img{
+        width: 95%;
+    }
+    .c-form form input {
+        width: 100%;
+        font-size: 13px;
+        margin: 2px 0px 2px 0px !important;
+        padding: 2px 0px;
+    }
+    .c-form form textarea {
+        width: 100%;
+        height: 90px;
+    }
+    .c-form form label {
+        font-size: 14px;
+    }
+    .c-form form button {
+        padding: 7px 16px 7px 16px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    footer {
+        padding: 30px 0px 30px 0px;
+    }
+    footer .f-data .f-logo a {
+        font-size: 17px;
+    }
+    footer .f-data .f-links ul {
+        grid-gap: 0px 30px;
+        margin-top: 18px;
+    }
+    footer .f-data .f-social ul {
+        margin-top: 25px;
+        grid-gap: 0px 14px;
+    }
+    footer .f-data .f-social ul li a {
+        font-size: 23px;
+    }
+    footer .f-last p {
+        font-size: 13px;
+    }
+}
+/* --- Close Media Quries 768px --- */
+/* --- Start Media Quries 575px --- */
+@media screen and (max-width: 575px)
+{
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+    header .row .site-logo a {
+        font-size: 16px;
+    }
+    header .row {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+    }
+    header .row .nav-links{
+        display: none;
+    }
+    header .row .right{
+        display: none;
+    }
+    header .row .menuicon {
+        display: block;
+        text-align: end;
+    }
+    header .row .menuicon i {
+        font-size: 20px;
+        color: #fff;
+        border: 1px solid #5933d3;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    .showData{
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 80px;
+        background-color: #5933d3;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        height: 140px;
+        gap: 20px 0px;
+    }
+    .h-section .row {
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .h-section .row .left {
+        padding-top: 0px;
+        text-align: center;
+    }
+    .h-section .row .left p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .h-section .row .left h4 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .h-section .row .left .third-txt {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .h-section .row .left h1 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .h-section .row .left .l-text {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .h-section .row .left a {
+        font-size: 11px;
+        padding: 6px 20px;
+    }
+    .h-section .row .right {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .h-section .row .right img {
+        max-width: 50%;
+    }
+    .logos {
+        margin: 20px 0px 20px 0px;
+    }
+    .about {
+        padding: 20px 0px 20px 0px;
+    }
+    .about .row {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-items: center;
+        align-items: center;
+    }
+    .about .row .right {
+        text-align: center;
+    }
+    .about .row .right .top h3 {
+        font-size: 25px;
+    }
+    .about .row .right .top p {
+        font-size: 11px;
+        margin-top: 8px;
+        max-width: 100%;
+    }
+    .about .row .right .r-social ul {
+        grid-gap: 0px 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .about .row .right .r-social ul li a {
+        font-size: 20px;
+    }
+    .about .row .left img {
+        max-width: 50%;
+        margin-top: 30px;
+    }
+    .services {
+        padding: 20px 0px 20px 0px;
+    }
+    .services .s-data h3 {
+        font-size: 25px;
+    }
+    .services .row {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 30px 0px;
+        margin-top: 20px;
+    }
+    .services .row .box {
+        padding: 25px 12px 25px 12px;
+    }
+    .services .row .box img {
+        max-width: 26%;
+    }
+    .services .row .box h4 {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    .services .row .box p {
+        font-size: 11px;
+    }
+    .p-section {
+        padding: 20px 0px 20px 0px;
+    }
+    .p-section .top-data h2 {
+        font-size: 25px;
+    }
+    .p-section .p-data .row {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 30px 0px;
+        margin-top: 20px;
+    }
+    .p-section .p-data .row .box p {
+        font-size: 13px;
+    }
+    .c-form {
+        padding: 0px 0px 20px 0px;
+    }
+    .c-form .contacts-f {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .c-form form {
+        border: 1px solid #fff;
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px 10px;
+    }
+    .c-form form label {
+        font-size: 14px;
+    }
+    .c-form form input {
+        font-size: 13px;
+        margin: 8px 0px 8px 0px !important;
+    }
+    .c-form form button {
+        padding: 7px 15px 7px 15px;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .c-form .form-data h3 {
+        font-size: 25px;
+    }
+    .c-form .row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .c-form form label {
+        font-size: 13px;
+    }
+    .c-form form input {
+        font-size: 12px;
+        margin: 5px 0px 5px 0px !important;
+        padding: 4px 0px;
+    }
+    .c-form form button {
+        padding: 6px 12px 6px 12px;
+        font-size: 15px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .c-form .row .contact-img{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .c-form .row .contact-img img{
+        width: 85%;
+    }
+    footer {
+        padding: 20px 0px 20px 0px;
+    }
+    footer .f-data .f-links ul {
+        grid-gap: 15px 20px;
+        margin-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .f-data .f-links ul li a {
+        font-size: 12px;
+    }
+    footer .f-data .f-social ul {
+        margin-top: 20px;
+        grid-gap: 0px 15px;
+    }
+    footer .f-data .f-social ul li a {
+        font-size: 21px;
+    }
+    footer .f-last p {
+        font-size: 12px;
+    }   
+}
+/* --- Close Media Quries 575px --- */
